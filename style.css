@@ -99,16 +99,15 @@ body{
 /*==ACTION SECTION END==*/
 
 /*==PRODUCTIVE SECTION START==*/
-.productive {
+.productive{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: large;
-}
-.productive{
     padding: 40px;
-    background-color: white(60 93% 3%);
-    text-align: center;
+    background-color: rgb(246, 252, 250);
+    
 }
+
 .productive .productive-sec{
    padding: 20px;
     background-color: #f1f1ec;
@@ -190,3 +189,32 @@ body{
     transition:1s ease;
 }
 /*==GET IN TOUCH SECTION END==*/
+
+/*==FOOTER SECTION START==*/
+.footer-section{
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+}
+.footer-section .footer-d span{
+    font-size: 50px;
+    font-weight: 600;
+     color: rgb(74, 74, 250);
+}
+.footer-section .footer-d p{
+    color:rgb(99, 95, 95);
+    font-size: 17px;
+}
+
+.footer-section .footer-d nav li{
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+}
+.footer-section .footer-d nav li a{
+    text-decoration: none;
+    color: rgb(99, 95, 95);
+    font-size: 17px;
+    padding: 20px;
+}
+/*==FOOTER SECTION END==*/
