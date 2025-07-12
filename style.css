@@ -147,11 +147,12 @@ body{
     background-color: rgb(247, 247, 250);
     display: flex;
     justify-content: space-between;
-    padding: 90px;
+    padding: 100px;
 }
 
 .touch-section h3{
      font-size: 50px;
+     margin-top: 120px;
 }
 .input-section input{
     width: 280px;
